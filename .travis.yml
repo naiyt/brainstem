@@ -3,8 +3,14 @@ rvm:
   - 1.9.3
   - 2.0.0
   - 2.1.1
+  - 2.2.2
 
-before_install: gem install bundler
+gemfile:
+  - gemfiles/activerecord-3.2.12
+  - gemfiles/activerecord-3.2.21
+  - gemfiles/activerecord-4.0
+  - gemfiles/activerecord-4.1
+  - gemfiles/activerecord-4.2
 
 git:
   depth: 1
